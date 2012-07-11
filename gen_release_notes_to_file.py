@@ -14,7 +14,7 @@ def compare(a, b):
 # user input
 sProject = raw_input('Project to get: ')
 sMilestone = raw_input('Milestone to get: ')
-sFilename = raw_input('Filename to output: ')
+sFilename = "releasenotes_" + sProject + "_" + sMilestone + ".txt"
 
 # FogBugz search string
 sSearch = "project:\"" + sProject + "\" milestone:\"" + sMilestone + "\""
